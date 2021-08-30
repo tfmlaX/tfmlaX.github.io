@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Zettlr" />
+  <meta name="date" content="2021-08-30" />
+  <title>Physics in a Second Language when French is Your First One | Thibaut Lacroix</title>
+  <link rel="icon" href="../img/ticon.png" type="image/png"/>
+  <style type="text/css">
+  * {
+    box-sizing: border-box;
+  }
+
+  a {
+    color: #f4c51a;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  hr {
+    border: none;
+    border-bottom: 1px solid #999;
+    width: 80%;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: #2b2719;
+    color: white;
+    font-family: 'DejaVu', 'Georgia', 'Times New Roman', 'Times', serif;
+  }
+
+  article {
+    width: 50%;
+    font-size: 1.5em;
+    margin: 0 auto;
+    line-height: 150%;
+  }
+
+  /* Better display on printing */
+  @media print {
+    article {
+      width: 90%;
+      font-size: 12pt;
+      margin: 0 auto;
+      line-height: 150%;
+    }
+  }
+
+  article p {
+    hyphens: auto;
+    text-align: justify;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', 'Lato', 'Liberation sans', 'Helvetica', sans-serif;
+    color: #d6a762;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  blockquote {
+    font-size: 80%;
+    color: rgba(120, 120, 120, 1);
+    margin: 2% 5%;
+    line-height: 120%;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 70%;
+    font-family: 'Raleway', 'Lato', 'Liberation sans', 'Helvetica', sans-serif;
+  }
+
+  th, td {
+    padding: 4px 20px;
+    border-bottom: 1px solid #333;
+  }
+
+  figure {
+    text-align: center;
+  }
+
+  figure figcaption {
+    text-align: center;
+  }
+
+  /* List of classes taken from the skylighting lib */
+  /* See: https://github.com/jgm/skylighting/blob/master/skylighting-core/src/Skylighting/Format/HTML.hs */
+
+  /* Colors: Solarized theme (light) */
+  /* See: https://ethanschoonover.com/solarized/ */
+
+  /* Specific implementation: Taken from the GEdit theme (light) */
+  /* See: https://github.com/altercation/solarized/blob/master/gedit/solarized-light.xml */
+
+  /* Generic styles */
+  pre.sourceCode {
+    color: #657b83;
+    background-color: #fdf6e3;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .05);
+    padding: 2px;
+    overflow: auto;
+  }
+
+  /* All classes, taken from skylighting lib */
+  .sourceCode .kw { color: #859900; font-weight: bold; } /* Keyword */
+  .sourceCode .dt { color: #b58900; } /* Datatype */
+  .sourceCode .df { color: #d33682; } /* Decimal values*/
+  .sourceCode .bn { color: #d33682; } /* base-n-integers */
+  .sourceCode .fl { color: #d33682; } /* Floats */
+  .sourceCode .ch { color: #2aa198; } /* Character */
+  .sourceCode .st { color: #2aa198; } /* String */
+  .sourceCode .vs { color: #2aa198; } /* Verbatim String */
+  .sourceCode .ss { color: #2aa198; } /* Special String */
+  .sourceCode .co { color: #586e75; font-style: italic; } /* Comment */
+  .sourceCode .ot { font-weight: bold; } /* Other token */
+  .sourceCode .al { color: #d33682; background-color: #073642; } /* Alert */
+  .sourceCode .fu { color: #268bd2; } /* Function name */
+  .sourceCode .re {} /* Region marker */
+  .sourceCode .er { color: #dc322f; font-weight: bold; } /* Error */
+  .sourceCode .cn { color: #2aa198; } /* Constant */
+  .sourceCode .sc { color: #dc322f; } /* Special character */
+  .sourceCode .im { color: #6c71c4; font-weight: bold; } /* Import statement */
+  .sourceCode .do { color: #dc322f; } /* Documentation string */
+  .sourceCode .an { color: #2aa198; } /* Annotation */
+  .sourceCode .cv { color: #6c71c4; } /* Comment var */
+  .sourceCode .va { color: #268bd2; } /* Variable */
+  .sourceCode .cf { color: #859900; } /* Control Flow (if, else, return) */
+  .sourceCode .op {} /* Operator */
+  .sourceCode .bu { color: #b58900; } /* Builtin function/class/identifier */
+  .sourceCode .ex { color: #268bd2; } /* Extension */
+  .sourceCode .pp { color: #cb4b16; } /* Preprocessor, like #import in C++ */
+  .sourceCode .at { color: #dc322f; } /* Attribute */
+  .sourceCode .in { color: #586e75; } /* Information */
+  .sourceCode .wa { color: #cb4b16; } /* Warning */
+  </style>
+
+<!-- Pandoc variables -->
+<meta name="dcterms.date" content="2021-08-30" />
+<meta name="keywords" content="Blog Post, Academic, Physics, Language, Symmetry" />
+
+<!-- Additional CSS in case the user has passed it -->
+
+<!-- Include MathJax CDN, if applicable -->
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+</head>
+<body>
+  <!-- Render in article for reader view enabling -->
+    <article>
+    <!-- Indentation must be zero for, e.g., PREs to work correctly -->
+<h1 id="ergodic-trajectory"><a href="https://tfmlax.github.io/blog.html">Ergodic Trajectory</a></h1>
+<h2 id="physics-in-a-second-language-when-french-is-your-first-one">Physics in a Second Language when French is Your First One</h2>
+<h3 id="by-thibaut-on-30082021">by <a href="https://tfmlax.github.io/">Thibaut</a> on 30/08/2021</h3>
+<p>This <a href="https://www.symmetrymagazine.org/article/physics-in-a-second-language">Symmetry article</a> gives interviews of physicists and astronomers whose mother tongue isn’t English.
+The article covers many topics from learning physics in English to having an accent, and at the very beginning the difficulty to find scientific words in one's mother tongue is mentioned.
+This difficulty can have two different origin: (1) you simply don't know the corresponding word, (2) this physics concept doesn't have a word in your mother tongue. I find that it’s the opposite for me, it's easier to find scientific words in French than in English.</p>
+<p>My mother tongue is French, I did my undergrad and master in France and now I’m doing my PhD in Scotland with British supervisors. Hence, I’ve learned Physics primarily in French and marginally in English (through some textbooks, internships abroad, courses taught in English and - of course - papers). Now that I’m doing research and teaching only in English, I’ve realised that I’m lacking some words that exist in my mother tongue but seems to either not exist in English or not being commonly use. I’m making the hypothesis that French is more fine-grained than English when it comes to physics <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. For example, when speaking of a lens in geometrical optics,<em>“point focal image”</em> and <em>“point focal objet”</em> are both just ‘focal point’. It may seem like a small - maybe useless - difference but making this distinction really helps you grasp more easily how a lens or more generally an optical device work. Even though the word ‘angular frequency’ for <span class="math inline">\(2\pi\times\)</span> frequency exists, most of the time we just say ‘frequency’ when speaking about angular frequency. This happens so often that I found myself confused on a couple of occasions when I wanted to compute a period - I would initially simply take the inverse of the angular frequency. In French, angular frequency has a distinct name from the frequency but that still has the connotation of rhythm: <em>pulsation</em>. A last example, there is no term in English making the difference between a system that doesn’t exchange anything with its environment and a system that exchanges energy but doesn’t exchange matter. Both are called a ‘closed system’. Whereas in your first year of undergrad in France, you learn that the former is an ‘isolated system’ (<em>système isolé</em>) and the latter is a ‘closed system’ (<em>système fermé</em>). Beware of confusing one with the other in the Hexagon, you would be graded a zero mark! Of course, physicists trained in English aren’t worse than French physicists because they have (or use) less words. It might even be the opposite. I think that being taught physics with more words makes a student learn how to solve the kind of well-posed problems one encounters in undergrad more easily than their English-speaking counterparts because they have more specialised tools in their toolbox, if I can use this analogy. It also means that they can get away without clearly understanding the (sometimes subtle) differences between two concepts that have justified giving them different names. Whereas the students learning physics in English will have to do the effort to understand the nuance if they want to pass their exams.</p>
+<p>Another thing that I've noticed - which is more anecdotal but amusing - is that some laws or principles don't have the same name in both languages. 
+Most of the time it's because there are both an English-speaking and a French-speaking discoverer. For example, when I was in high school and in undergrad the laws of refraction and reflection of light were called <em>“lois de Descartes”</em><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> whereas in English the former is called ‘Snell's law’ and the latter doesn't have a name.
+Here is another example, during my first year of PhD I was at a journal club where a paper about quantum thermodynamics was presented. A thermodynamic cycle that I've never heard of is at some point presented, it's called the ‘Otto cycle’. But, when the details of the cycle are explained I'm starting to get confused - it looks exactly the same as the most famous four strokes cycle, the <em>“cycle de Beau de Rochas”</em>! Having a quick look at Wikipedia to make sure that I'm not completely wrong about undergrad physics, I then discovered that (again) English and French names differ.</p>
+
+<p>I could keep giving example of differences between physics<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> in English and in French but I think that the main point of this article is that doing research and teaching physics in a language different from the one you have used to learn it forces you to really understand the concepts you are using (and can give rise to funny misunderstandings).</p>
+
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>I happen to know that a similar thing is true for medicine in French that is more detailed that medicine in English when it comes to describing physiological observations. For example there are more subdivisions of the kind of murmurs you can hear in a stethoscope in French and the different nuances of shape of a cell have different names in French.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>At some point it changed and they are now called <em>“lois de Snell-Descartes”</em>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p>Or math, did you know that the <em>“théorème de Thales”</em> and ‘Thales' theorem’ are completely different theorems?<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+  </article>
+</body>
+</html>
