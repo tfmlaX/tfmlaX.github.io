@@ -1,0 +1,214 @@
+/* Import ET Book styles
+   adapted from https://github.com/edwardtufte/et-book/blob/gh-pages/et-book.css */
+
+@font-face {
+    font-family: "et-book";
+    src: url("et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot");
+    src: url("et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot?#iefix") format("embedded-opentype"), url("et-book/et-book-roman-line-figures/et-book-roman-line-figures.woff") format("woff"), url("et-book/et-book-roman-line-figures/et-book-roman-line-figures.ttf") format("truetype"), url("et-book/et-book-roman-line-figures/et-book-roman-line-figures.svg#etbookromanosf") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "et-book";
+    src: url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot");
+    src: url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot?#iefix") format("embedded-opentype"), url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff") format("woff"), url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.ttf") format("truetype"), url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.svg#etbookromanosf") format("svg");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "et-book";
+    src: url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot");
+    src: url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot?#iefix") format("embedded-opentype"), url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.woff") format("woff"), url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.ttf") format("truetype"), url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.svg#etbookromanosf") format("svg");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "et-book-roman-old-style";
+    src: url("et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot");
+    src: url("et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot?#iefix") format("embedded-opentype"), url("et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.woff") format("woff"), url("et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.ttf") format("truetype"), url("et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.svg#etbookromanosf") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body { 
+  background-color:#ffffff;
+  color:black;
+  font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  line-height:120%;
+
+}
+
+h1, h2, h3,h4, h5, h6 {
+  font-weight: bold;
+  color:#f4c51a;
+  font-family:'Chivo',sans-serif;
+  background: transparent; }
+
+
+
+h1 { padding:20px; font-size: 164%; color:#f4c51a;  background-color:#2b2719; 
+  margin-bottom:0px;line-height:110%;}
+h1  a:hover { background-color:#717300;  color:#f4c51a; }
+
+h2 { font-size: 145% ; color:#f4c51a; background-color:#784421; 
+  padding:7px; padding-left:20px; 
+  text-transform:uppercase; letter-spacing:0.1ex;}
+a.selected {  padding-left:10px; padding-right:10px; background-color:#f4c51a;  color:#784421;}
+h2 a:hover {  background-color:#f4c51a;  color:#784421;}
+h2.plain {
+  font-size:118%;
+  text-transform:none; letter-spacing:0ex;
+  background:#ffffff;
+  color: #445500;
+}
+
+h3 { margin-left:10px; padding-top:5px;padding-bottom:0px; }
+
+h3 { font-size: 110% ; color:#0064ab; }
+
+h3 a { text-decoration:none;}
+h3.plain {
+  background:#ffffff;
+  color: #0064ab;
+}
+
+
+h4 { font-style:italic; font-size: 100%  ; 
+	 text-transform:lowercase; color:#00a58e;}
+h4 a:hover { color:#717300; background-color:#3EBF00;}
+
+h5 { font-style: italic; font-size: 100% }
+
+h6 { font-variant: small-caps; font-size: 100% }
+
+p {
+    width: 80%;
+    padding-left: 2em;
+
+}
+
+p.reverse {
+  background:#3EBF00;
+  color: inherit; 
+}
+
+
+center-align {
+  text-align: center;
+}
+
+right-align {
+  text-align: right;
+}
+
+left-align {
+  text-align: left;
+}
+
+a { font-weight:inherit; 
+  text-decoration:none; /* underline; */
+  font-style: italic;
+  font-weight: bold;
+  color:inherit;
+  background: transparent;
+  padding-left:2px; padding-right:2px;
+}
+
+a.plain {
+  color:inherit;
+  font-weight: inherit;
+  padding-left:2px; padding-right:2px;
+}
+
+a:hover {
+  color: black;
+  background-color:#f4c51a;
+  text-decoration:none;
+}
+
+
+a.popupimg img { height:0; border-width:0 }
+
+a.popupimg:hover img { position:absolute; top:100px; right:50px; height:160px; border-width:1px; }
+
+ul, ol {
+        margin-left: 0em;
+} 
+
+li {
+	margin-top: 0ex;
+}
+
+address { padding:10px; padding-left:40px;}
+address {
+  background:#784421;
+  font-family:'Chivo';
+  color: white; 
+  font-size: 90%;
+  font-style: normal;
+}
+address a{
+  color:inherit;
+  text-decoration:none;
+  background-color:inherit; }
+
+
+address a:hover {  background-color:#ffc; color: black;}
+
+
+dl { 
+  overflow:hidden; 
+  margin-left:2em;   margin-right:0em;
+  margin-top:0px;
+} 
+
+dt{
+  border-left:2px;
+  float:left; clear:left;
+  width:2em; /* adjust the width; make sure the total of both is 100% */
+  font-size:100%;
+  font-weight:bold;
+  margin-bottom:0px; padding:0px;
+}
+
+dl.gtm dt{
+  font-weight:bold;
+  width:4em; /* adjust the width; make sure the total of both is 100% */
+}
+
+dl.blog dt{
+  font-weight:bold;
+  width:13em; /* adjust the width; make sure the total of both is 100% */
+}
+
+dd {
+  float:left;
+  width:80%; /* adjust the width; make sure the total of both is 100% */
+  margin-bottom:0px;
+  padding-left:0px;
+  margin-left:0em;
+}
+
+dl.blog a {
+   text-decoration:none;
+}
+
+dl.blog dd {
+	float:left; 
+	  width:80%;
+  margin-left:0em;
+  }
+
+tt {
+  font-family:inherit;
+}
+
+
