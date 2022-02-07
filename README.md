@@ -1,9 +1,7 @@
-tfml semi-professional website
+tfml professional website
 =========
-* Small Résumé
-* Teaching Experience
 * Publications
-* Miscellaneous
-
-Style based on tufte-css (https://github.com/edwardtufte/tufte-css/)
-
+* Talks
+* Teaching Experience
+* Outreach
+* Small Résumé
