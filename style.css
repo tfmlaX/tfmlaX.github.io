@@ -838,6 +838,12 @@ nav .p-install{
     color:#cdecff
 }
 
+#news{
+    background-color:#cdecff!important;
+    color:#111;
+    scroll-margin-top:68px
+}
+
 nav .p-why{
     border-color:#f8f8f8
 }
